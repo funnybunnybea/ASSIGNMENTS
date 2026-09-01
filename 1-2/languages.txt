@@ -1,0 +1,10 @@
+
+Language:Type
+
+C:Compiled
+C++:Compiled
+Python:Interpreted
+Java:Both (compiled to bytecode, then interpreted/JIT-executed by the JVM)
+R:Interpreted
+
+Python can outperform C++ in certain scenarios when using NumPy with real world computing. This is because python can use its underlying C and Fortran code to do the computation which can be faster than C++ when using simple loops but not when the C++ is well optimised.
