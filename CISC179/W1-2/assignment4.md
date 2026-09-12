@@ -34,3 +34,12 @@ print(f"Distance between two cars is {distance} mile(s)")
 ```
 
 # 2a 
+a. hello = "hello"  Valid 
+
+b. _var = 100 Valid 
+
+c. !var_1 = 200   SyntaxError, cannot start with exclamation
+
+d. print = "print me"  Runs, but it would fail if you wanted to print something
+
+e. False = 0 SyntaxError, cannot assign things to False, True, or None
