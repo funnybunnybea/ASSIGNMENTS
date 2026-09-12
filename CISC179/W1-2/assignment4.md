@@ -34,9 +34,9 @@ print(f"Distance between two cars is {distance} mile(s)")
 ```
 
 # 2a 
-a. hello = "hello"  Valid 
+a. hello = "hello"  Valid just changing it so you wouldn't have to put "" around hello every time you wanted "hello"
 
-b. _var = 100 Valid 
+b. _var = 100 Valid underscores in front don't change anyth other than the name
 
 c. !var_1 = 200   SyntaxError, cannot start with exclamation
 
