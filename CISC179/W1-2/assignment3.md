@@ -1,4 +1,4 @@
- #  1a — Memory usage
+ #  1a 
 
 ```python
 var1 = 10
@@ -17,7 +17,7 @@ print(hex(id(var2)))
 
 CPython already has -5 to 256, since 100 falls in that range, var2 = 100 doesn't create a new object it just changes var2 to the same cached 100 object that var1 was already using.
 
- #  1b — Memory map
+ #  1b 
 
  ### 0xb45318    H (str1[0]) 
  ### 0xb45888    e (str1[1]) 
@@ -30,19 +30,18 @@ CPython already has -5 to 256, since 100 falls in that range, var2 = 100 doesn't
  ### 0xb459d8    l (str2[3]) 
  ### 0xb45858    d (str2[4]) 
 
- #  2a — Problem-solving
+ #  2a 
 dogcat,
 the dog chases the cat,
 dogdogdogdog,
 
- #  2b — Increment x
-
+ #  2b 
 ```python
 x = 50
 x = x + 1
 ```
 
- #  3a — Troubleshooting variable names
+ #  3a 
 a. hello = "hello"  Valid just assigning hello to the str version of hello
 
 b. _var = 100 Valid underscores are ok
