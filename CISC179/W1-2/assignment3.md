@@ -43,9 +43,9 @@ x = x + 1
 ```
 
  #  3a — Troubleshooting variable names
-a. hello = "hello"  Valid 
+a. hello = "hello"  Valid just assigning hello to the str version of hello
 
-b. _var = 100 Valid 
+b. _var = 100 Valid underscores are ok
 
 c. !var_1 = 200   SyntaxError, cannot start with exclamation
 
